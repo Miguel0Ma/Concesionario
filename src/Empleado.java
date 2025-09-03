@@ -17,12 +17,10 @@ public class Empleado extends Persona {
     }
 
     public static class EmpleadoBuilder {
-        // Atributos heredados
         private String nombre;
         private String telefono;
         private String id;
         private String email;
-        // Atributos propios
         private String cargo;
         private double salario;
 
